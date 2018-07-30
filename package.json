@@ -1,0 +1,28 @@
+{
+	"name": "string-format",
+	"version": "0.0.1",
+	"description": "String formatting",
+	"main": "index.js",
+	"keywords": [],
+	"jest": {
+		"testEnvironment": "node",
+		"collectCoverage": true,
+		"coverageDirectory": "reports",
+		"coverageReporters": [
+			"json",
+			"lcov",
+			"text",
+			"cobertura"
+		]
+	},
+	"author": "Philip Skinner <me@philip-skinner.co.uk>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PhilipSkinner/string-format/issues"
+	},
+	"homepage": "https://github.com/PhilipSkinner/string-format",
+	"devDependencies": {
+		"jest": "^23.4.2",
+		"sinon": "^6.1.4"
+	}
+}
