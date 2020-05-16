@@ -12,8 +12,7 @@
 	"homepage": "https://github.com/PhilipSkinner/string-format",
 	"devDependencies": {
 		"jasmine": "^3.5.0",
-		"nyc": "^15.0.1",
-		"sinon": "^6.1.4"
+		"nyc": "^15.0.1"
 	},
 	"scripts": {
 		"test": "./node_modules/.bin/nyc ./node_modules/.bin/jasmine"
