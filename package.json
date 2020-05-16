@@ -4,17 +4,6 @@
 	"description": "String formatting",
 	"main": "index.js",
 	"keywords": [],
-	"jest": {
-		"testEnvironment": "node",
-		"collectCoverage": true,
-		"coverageDirectory": "reports",
-		"coverageReporters": [
-			"json",
-			"lcov",
-			"text",
-			"cobertura"
-		]
-	},
 	"author": "Philip Skinner <me@philip-skinner.co.uk>",
 	"license": "MIT",
 	"bugs": {
@@ -22,7 +11,11 @@
 	},
 	"homepage": "https://github.com/PhilipSkinner/string-format",
 	"devDependencies": {
-		"jest": "^23.4.2",
+		"jasmine": "^3.5.0",
+		"nyc": "^15.0.1",
 		"sinon": "^6.1.4"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/nyc ./node_modules/.bin/jasmine"
 	}
 }
