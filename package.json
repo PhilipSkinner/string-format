@@ -1,5 +1,5 @@
 {
-	"name": "string-format",
+	"name": "elemental-string-format",
 	"version": "0.0.1",
 	"description": "String formatting",
 	"main": "index.js",
@@ -16,5 +16,8 @@
 	},
 	"scripts": {
 		"test": "./node_modules/.bin/nyc ./node_modules/.bin/jasmine"
+	},
+	"dependencies": {
+		"dateformat": "^3.0.3"
 	}
 }

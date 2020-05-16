@@ -150,8 +150,19 @@ const hexTest = (done) => {
 	done();
 };
 
+const shortDateFormat = (done) => {
+	process.env.LANG = 'en_US';
+
+	var d = new Date(2020, 0, 01);
+	expect(stringFormat("{0:d}", d)).toEqual("01/1/2020");
+
+	done();
+};
+
 describe("A string formatter", () => {
 	it("ignores none strings", notStringIgnoreTest);
+	
+	/* number tests */
 	it("can inject variables into a string", variableTest);
 	it("can align values", alignTest);
 	it("can format currencies", currencyTest);
@@ -163,4 +174,7 @@ describe("A string formatter", () => {
 	it("can format percentages", percentagesTest);
 	it("can do round trip number formats", roundTripTest);
 	it("can format hexadecimals", hexTest);
+
+	/* date tests */
+	it("can format short dates", shortDateFormat);
 });
