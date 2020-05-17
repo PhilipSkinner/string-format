@@ -1,6 +1,12 @@
 {
 	"name": "elemental-string-format",
-	"version": "0.1.1",
+	"keywords" : [
+		"string",
+		"format",
+		"date",
+		"number"
+	],
+	"version": "0.1.2",
 	"description": "String formatting",
 	"main": "index.js",
 	"keywords": [],
