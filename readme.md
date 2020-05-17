@@ -1,6 +1,6 @@
 # Elemental String Formatter
 
-Can be used standalone, though this library was developed to add missing functionality into the (Elemental Low-code platform)[https://elementalsystem.org].
+Can be used standalone, though this library was developed to add missing functionality into the [Elemental Low-code platform](https://elementalsystem.org).
 
 This library provides the ability to format strings in the same way as String.Format in .NET.
 
